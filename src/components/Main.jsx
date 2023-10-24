@@ -1,13 +1,11 @@
-import Gallery from "./Gallery";
+import WelcomeText from "./WelcomeText";
+import Sideber from "./Sideber";
 
 export default function Main() {
   return (
     <main>
-      <section className="section">
-        <div className="container">
-          <Gallery />
-        </div>
-      </section>
+      <WelcomeText />
+      <Sideber />
     </main>
   );
 }
